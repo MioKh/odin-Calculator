@@ -18,3 +18,8 @@ but guess what most of them were using the eval() function which they said not t
 anyway after thinking about it alot it kinda started coming and well you can see it in the code 
 
 it was frustrating but i am proud of myself that i was able to do it and i like it even tho its a simple app i am looking forward to make more and much complicated stuff
+
+WEll I am back after 9 month " according to github " 
+and well obviously I forgot a bit but I am back and i thought hey I should try to retry doing this project it should be a lot easier because I have a idea on it and I know how to think ? is that even a way to say this 
+anyway i'll try re-doing everything
+
