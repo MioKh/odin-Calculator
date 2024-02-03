@@ -1,16 +1,26 @@
+
+
+
 body{
-    background-color: #e6e9ef;
+    background-color: #6a7d8e;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
 
 .calculator{
     background-color: #1c1c1c;
     width: calc(80vh / 2);
     height: 80vh;
     border-radius: 25px;
-    
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
 }
 
 .display{
@@ -26,21 +36,35 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+   
 }
 
-.calculation{
+.calculation {
     height: 40%;
     width: 90%;
-    background-color: aqua;
-    margin-bottom: 5%;
+    background-color: #333; 
+    border-radius: 5px; 
+    font-size: 2.5rem;
+    color: #fff; 
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 10px; 
 }
 
-
-.result{
+.result {
     height: 20%;
     width: 90%;
-    background-color: purple;
+    background-color: #333; 
+    border-radius: 5px;
+    font-size: 1.5rem;
+    color: #fff; 
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+    margin: 10px; 
 }
+
 
 .calculator-buttons{
     display: grid;
@@ -77,8 +101,9 @@ body{
      color: #333333;
 }
 
-.operator{
+.operator, #clean{
     color: #ffab08;
+    font-size: 1.75rem;
 }
 
 .number, .modulu{
@@ -89,14 +114,4 @@ body{
 
 
 
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-}
 
-/* .rectangle {
-    width: calc(80vh / 2);
-    height: 80vh;
-    how to add a non changing proportional size
-} */
